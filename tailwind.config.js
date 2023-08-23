@@ -7,10 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        black: '#151515',
+      },
+      screens: {
+        phoneSm: { max: '375px' },
+        phone: { max: '480px' },
+        tablet: { max: '769px', min: '481px' },
+        laptop: { max: '1280px', min: '770px' },
+        largerDesktop: { min: '1281px' },
       },
     },
   },
