@@ -50,7 +50,7 @@ export function Card({ title, color, price, children }: CardProps) {
         )}
       </div>
       <div
-        className={`mt-6 h-[400px] w-full ${color} phone:h-[330px] tablet:h-full ${
+        className={`mt-6 h-[400px] w-full ${color} phone:h-full tablet:h-full ${
           open ? 'phone:block tablet:block' : 'phone:hidden tablet:hidden'
         }`}
       >
