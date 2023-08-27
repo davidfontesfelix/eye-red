@@ -5,7 +5,7 @@ export default function ApplicationInformation() {
   return (
     <section className="flex h-full w-full flex-col items-center bg-[#151515] text-white">
       <Heading>A segurança perfeita não existe?</Heading>
-      <div className="cards mb-16 mt-12 flex flex-wrap justify-center gap-12 tablet:flex-col">
+      <div className="cards mb-16 mt-12 flex flex-wrap gap-12 tablet:flex-col">
         <CardRoot.Card>
           <CardRoot.Title>Equipe de hackers</CardRoot.Title>
           <CardRoot.Paragraph>

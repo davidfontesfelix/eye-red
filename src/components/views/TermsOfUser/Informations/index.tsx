@@ -20,7 +20,14 @@ export default function Informations({ title, children }: InformationProps) {
           {title}
         </h3>
       </div>
-      {open && <p className="mt-2 text-xl text-white/80">{children}</p>}
+      {open && (
+        <p
+          onClick={() => setOpen(!open)}
+          className="mt-2 text-xl text-white/80"
+        >
+          {children}
+        </p>
+      )}
     </div>
   )
 }

@@ -7,31 +7,27 @@ export default function TermsOfUse() {
       <Heading>Termos de uso</Heading>
       <div className="mb-10 mt-8 flex flex-col gap-6">
         <Informations title="Renovação automática">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor,
-          velit eu ultricies consectetur, purus libero bibendum nunc, non
-          egestas arcu mauris sed libero. Nunc id ex sit amet felis varius
-          venenatis. Sed in dui vel est consequat hendrerit nec a dui. Vivamus
-          quis metus eu elit viverra viverra. Curabitur finibus suscipit nulla,
-          nec interdum justo malesuada id. Ut non risus a nulla malesuada
-          commodo a nec justo. Fusce fringilla, odio at ultrices dignissim, mi
-          odio dignissim urna, nec efficitur quam mi nec tellus. Quisque eu
-          tellus nec urna aliquam finibus at nec erat. Sed non urna a ipsum
-          consequat dictum. In hac habitasse platea dictumst. Sed a bibendum
-          urna. Nunc consectetur urna id risus varius, a pulvinar sapien dictum.
+          Ao adquirir uma assinatura do EyeRed Antivírus, você concorda com a
+          renovação automática da sua assinatura no final do período contratado.
+          Isso garante a continuidade da proteção fornecida pelo EyeRed sem
+          interrupções. A renovação automática será processada utilizando os
+          detalhes de pagamento fornecidos durante a aquisição inicial.
         </Informations>
-        <Informations title="Como cancelar">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor,
-          velit eu ultricies consectetur, purus libero bibendum nunc, non
-          egestas arcu mauris sed libero. Nunc id ex sit amet felis varius
-          venenatis. Sed in dui vel est consequat hendrerit nec a dui. Vivamus
-          quis metus eu elit viverra viverra. Curabitur finibus suscipit nulla,
-          nec interdum justo malesuada id.
+        <Informations title="Cancelamento da Renovação Automática">
+          Se desejar cancelar a renovação automática de sua assinatura, você
+          pode fazê-lo a qualquer momento antes da data de renovação. Para
+          cancelar, acesse sua conta no site do EyeRed Antivírus, vá para a
+          seção de gerenciamento de assinaturas e siga as instruções de
+          cancelamento. Lembre-se de que o cancelamento da renovação automática
+          não afetará o acesso aos serviços até o final do período contratado.
         </Informations>
-        <Informations title="Preços">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor,
-          velit eu ultricies consectetur, purus libero bibendum nunc, non
-          egestas arcu mauris sed libero. Nunc id ex sit amet felis varius
-          venenatis
+        <Informations title="Preços e Pagamentos">
+          Os preços dos nossos produtos e serviços estão claramente indicados em
+          nosso site. Eles podem variar com base na oferta, período de
+          assinatura e recursos incluídos. Ao realizar um pedido, você concorda
+          em pagar o valor indicado, além de quaisquer impostos ou taxas
+          aplicáveis. Os pagamentos serão processados usando os métodos de
+          pagamento disponíveis no site.
         </Informations>
       </div>
     </article>

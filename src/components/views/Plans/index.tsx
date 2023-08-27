@@ -3,7 +3,10 @@ import { PlansCardRoot } from './PlansCards'
 
 export default function Plans() {
   return (
-    <section className="flex h-full w-full flex-col items-center bg-[#242424] px-[10%] text-center text-white">
+    <section
+      id="Section"
+      className="flex h-full w-full flex-col items-center bg-[#242424] px-[10%] text-center text-white"
+    >
       <Heading>Escolha seu plano</Heading>
       <h3 className="mb-10 mt-4 text-2xl font-medium phone:text-base">
         Explore os recursos de proteção em cada uma de nossas soluções abaixo.
